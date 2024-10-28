@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0.2%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1468215804491-50dce06d81f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5px;
+    
+}
+.content{
+    color: white;
+    margin-top: 80px;
+
+}
+.content h1 span{
+    color: darkorange;
+}
+.content h1{
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-left: 100px;
+}
+.content p{
+    margin-left: 100px;
+    font-size: 22px;
+    font-weight: normal;
+}
+.content button{
+    color: black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
